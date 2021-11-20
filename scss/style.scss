@@ -1,6 +1,7 @@
-body{
-    background-color: red;
-}
-h1{
-    color: royalblue;
-}
+
+@import"variables";
+@import"index";
+@import"historia";
+@import"productos";
+@import"locales";
+@import"contacto";
