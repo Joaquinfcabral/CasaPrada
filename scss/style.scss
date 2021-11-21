@@ -1,7 +1,137 @@
-
 @import"variables";
 @import"index";
 @import"historia";
 @import"productos";
 @import"locales";
 @import"contacto";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/Fondos-web.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+
+    font-family: $Letrah1;
+    color: $colorletra1;
+
+
+    header {
+        .position {
+            display: flex;
+            justify-content: center;
+
+            img {
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .bg-light1 {
+        background-color: $bgNav;
+
+
+        position: fixed !important;
+        z-index: 1000 !important;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Responsive
+
+@media only screen and (max-width: 470px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    body {
+
+
+        font-family: $Letrah1;
+        color: $colorletra1;
+
+        header {
+            .bg-light1 {
+                background-color: #b7e2ec;
+
+                .navBar {
+                    text-align: center;
+
+                    li {
+
+                        .link {
+                            color: $colorletra2;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+
+
+    }
+}

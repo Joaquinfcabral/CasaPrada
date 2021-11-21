@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(/img/Fondos-web.jpg);
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #ff0000; }
+  body header .position {
+    display: flex;
+    justify-content: center; }
+    body header .position img {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  body .bg-light1 {
+    background-color: #cc7a00e1;
+    position: fixed !important;
+    z-index: 1000 !important; }
+
+@media only screen and (max-width: 470px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; }
+  body {
+    font-family: "Alegreya Sans", sans-serif;
+    color: #ff0000; }
+    body header .bg-light1 {
+      background-color: #b7e2ec; }
+      body header .bg-light1 .navBar {
+        text-align: center; }
+        body header .bg-light1 .navBar li .link {
+          color: #000000; } }
